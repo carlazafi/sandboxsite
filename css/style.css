@@ -99,6 +99,15 @@ footer {
   align-items: center;
 }
 
+.nav h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+}
+
 /* LOGO */
 .logo img {
   height: 2.5rem;
@@ -151,12 +160,14 @@ nav.active .menu {
   width: 100vw;
   left: 50%;
   transform: translateX(-50%);
+  clip-path: ellipse(100% 85% at 50% 0%);
 }
 
 /* container */
 .door {
   position: relative;
   width: 100%;
+  margin-top: 2rem;
 }
 
 .door img {
@@ -232,12 +243,16 @@ nav.active .menu {
 
   /* MENU*/
   .menu {
-    display: flex !important;
+    display: flex;
     flex-direction: row;
     position: static;
     background: none;
     padding: 0;
     gap: 1rem;
+  }
+
+  .nav h1 {
+    font-size: 2.5rem;
   }
 
   .container {
