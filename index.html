@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GaaIstaa</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/webp" href="img/logo.webp" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html" class="logo">
+          <img src="img/logo.webp" alt="logo" />
+        </a>
+        <h1>Gå i stå</h1>
+
+        <ul class="menu">
+          <li><a href="index.html" class="menuItem">Forside</a></li>
+          <li><a href="" class="menuItem">Kontakt</a></li>
+        </ul>
+
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <!-- hero billede -->
+      <section class="hero">
+        <div class="door">
+          <img class="closed" src="img/hero.webp" alt="en gul mur med port" />
+          <img class="open" src="img/hero2.webp" alt="åben port" />
+        </div>
+      </section>
+      <div class="container">
+        <!-- TEKST SECTION -->
+        <section class="grid1-1">
+          <div class="text-section">
+            <h1>Gå i stå</h1>
+            <h2>En gåtur i Assistens Kirkegården</h2>
+            <p>
+              Midt i København ligger Assistens Kirkegården. <br />Bag de gule mure er tiden gået i stå for alle de liv der nu mindes via gravsten med smukke ord. <br />På en gåtur gennem de stille alléer opfordres du til pludseligt at stoppe op –
+              midt i det hele, uden forklaring. Lad blikket hvile på træer, gravsten eller lysninger. Mærk hvordan kroppen falder til ro, mens omgivelserne fortsætter deres egen langsomme fortælling. At gå i stå her er ikke et afbrud, men en måde at
+              være til stede på. <br />
+              Gå i stå i parken men husk at respektere både de levende og døde der færdes her
+              <br />Har du brug for asistance til Assistens?
+            </p>
+            <a class="link" href="https://www.kk.dk/brug-byen/natur-og-groenne-omraader/koebenhavns-kirkegaarde/assistens-kirkegaard"> <strong>Læs mere her</strong></a>
+          </div>
+
+          <!-- BILLEDE MED TEKST -->
+          <div class="image-overlay">
+            <img src="img/billede1.webp" id="soundImage" alt="frøperspektiv mod en blå himmel og nogle trækroner" class="billede1" />
+            <div class="text-overlay">
+              <p>
+                Klik her <br />
+                og lyt <br />til parken
+              </p>
+            </div>
+            <audio id="myAudio">
+              <source src="sound/Assistens Kirkegård 2.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </section>
+
+        <!-- galleri -->
+        <h2>Dyk ned i detaljerne...</h2>
+
+        <section id="galleri">
+          <img src="img/billede2.webp" alt="Alle med sti imellem fra Assistens Kirkegården" class="img2" />
+          <img src="img/billede3.webp" alt="En græsplæne med nogle cykler på og en computerskærm i forgrunden" class="img3" />
+          <img src="img/billede4.webp" alt="et closeup af lyserøde kirsebærblomster mod en blå himmel" class="img4" />
+          <img src="img/billede5.webp" alt="Et closeup af en lille del af en gravsten med noget buskads i baggrunden" class="img5" />
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Carla Zafirakos. Alle rettigheder forbeholdes.</p>
+    </footer>
+
+    <script src="js/generel.js"></script>
+  </body>
+</html>
